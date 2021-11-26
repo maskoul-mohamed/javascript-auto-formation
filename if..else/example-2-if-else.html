@@ -6,14 +6,20 @@
 </head>
 <body>
     <script>
-    var now = new Date();
-    var dayOfWeek = now.getDay(); // Sunday - Saturday : 0 - 6
-    
-    if(dayOfWeek == 5) {
-        document.write("Have a nice weekend!");
+        //saiser    
+    var dayOfWeek = prompt("Enter: ");
+    var resultat;
+        // traitment
+    if(parseInt(dayOfWeek) == 6) {
+        resultat ="Have a nice weekend!";
     } else {
-        document.write("Have a nice day!");
+        resultat = "Have a nice day!";
     }
+
+    document.write(resultat)
+    document.write(resultat)
+    document.write(resultat)
+
     </script>
 </body>
 </html>
