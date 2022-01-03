@@ -9,4 +9,4 @@ person1.gender = "male"
 
 person1.display()
 
-console.log(person1._gender)
+console.log(person1.gender)

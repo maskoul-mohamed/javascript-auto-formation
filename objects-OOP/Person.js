@@ -20,7 +20,7 @@ class Person {
     }
 
     get gender(){
-        return this.gender
+        return this._gender
     }
 
     set gender(value){
