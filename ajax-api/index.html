@@ -10,11 +10,19 @@
 
 <body>
     <script>
-        fetch("../ajax-api/eBook.json")
-            .then(function(response) {
+        fetch("./eBook.json")
+            .then(function (response) {
                 return response.json()
-            }).then(function(data){
-                console.log(data)
+            })
+            .then(function (data) {
+                for (var i = 0; i < data.eBooks.length; i++) {
+                    document.write("<p>" + data.eBooks[i].language +
+                        " " + data.eBooks[i].edition + "</p>"
+                    )
+                }
+            })
+            .catch(function (error) {
+                console.log(error)
             })
     </script>
 

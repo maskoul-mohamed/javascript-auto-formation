@@ -1,5 +1,6 @@
 {
-    "eBooks": [{
+    "eBooks": [
+        {
             "language": "Pascal",
             "edition": "third"
         },
